@@ -1,0 +1,570 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Fraunces:opsz,wght@9..144,200;9..144,300;9..144,400;9..144,500;9..144,600;9..144,700;9..144,800;9..144,900&display=swap");
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --col1: #0E8784;
+  --col2: #333D4B;
+  --col3:#FEFCF7;
+  --inactive1: #E2DEDB;
+  --inactive2: #F4F1EB;
+  --hover1: #66D2CF;
+  --hover2: #FDD6BA;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+section{
+    width: 90%;
+    margin: 0 5%;
+    display: flex;
+    justify-content: center;
+}
+body {
+  background: var(--col3);
+}
+/* header started */
+header {
+  width: 90%;
+  margin: 2.5% 5%;
+  display: flex;
+  justify-content: center;
+}
+header .alpadgewidht .more{
+  display: none;
+}
+header .alpadgewidht {
+  width: 1290px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+header .alpadgewidht nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+}
+header .alpadgewidht nav ul a {
+  color: #83888F;
+  font-family: Barlow;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px; /* 125% */
+  letter-spacing: 0.923px;
+  text-transform: uppercase;
+}
+header .alpadgewidht nav ul li:hover a {
+  color: #333D4B;
+} 
+/* home section started */
+/* header ended */
+.about{
+    width: 90%;
+    margin: 0 5%;
+    display: flex;
+    justify-content: center;
+  }
+  .about .alpadgewidht{
+    width: 90vw;
+    height: 28vw;
+    border-radius: 1vw;
+    border: none;
+    background:  url(../../images/coffe.png) no-repeat;
+    background-size: cover;
+    background-position: 0 50%;
+  }
+  .about .alpadgewidht .container{
+    width: 90vw;
+    height: 28vw;
+      background-color: rgba(0, 0, 0, 0.535);
+      border-radius: 1vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left:6vw ;
+  }
+  .about .alpadgewidht h1{
+    color: var(--col3);
+    font-family: Fraunces ;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px; /* 100% */
+    margin-bottom: 1vw;
+  }
+  .about .alpadgewidht p{
+    color: var(--col3);
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+opacity: 0.8;
+  }
+  .about .alpadgewidht .meaning{
+    width: 445px; 
+}
+/* about-section ended */
+/* commit_section started*/
+.commit .alpadgewidht{
+    width: 90vw;
+    display: flex;
+    gap: 10vw;
+    margin-top: 11vw;
+    margin-bottom: 18vw;
+}
+.commit .alpadgewidht .container_left{
+    width: 30.8vw;
+    height: 36vw;
+    border-radius: .5vw;
+    background: url(../../images/barman.png);
+    background-size: cover;
+}
+.commit .alpadgewidht .container_right{
+    display: flex;
+    width: 540px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2vw;
+}
+.commit .alpadgewidht .container_right h2{
+    color: var(--col2);
+font-family: Fraunces ;
+font-size: 40px;
+font-weight: 900;
+line-height: 48px; /* 120% */
+} 
+.commit .alpadgewidht .container_right p{
+    color: #333D4B;
+font-family: Barlow;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+/* commit_section ended */
+/*  quality section started  */
+.quality .alpadgewidht {
+    width: 90vw;
+    height: 32vw;
+    background: #2C343E;
+    position: relative;
+    border-radius: .8vw;
+    margin-bottom: 15vw;
+}
+.quality .alpadgewidht .cap{
+    width: 30.9vw;
+    height: 33vw;
+    background: url(../../images/cappuchino.png);
+    position: absolute;
+    background-size: cover;
+    left:52vw ;
+    border-radius: .5vw;
+top: -8vw;
+}
+.quality .alpadgewidht .word{
+    width: 540px;
+    margin-top: 7vw;
+    margin-left: 5vw;
+}
+.quality .alpadgewidht .word h2{
+    color: var(--col3);
+font-family: Fraunces 9pt;
+font-size: 40px;
+font-style: normal;
+font-weight: 900;
+line-height: 48px; /* 120% */
+} 
+.quality .alpadgewidht .word p{
+    color: var(--col3);
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin-top: 2vw;
+    opacity: 0.7;
+}
+/*  quality section started  */
+/* global section started*/
+.global .alpadgewidht{
+    width: 80%;
+    margin-right: 6vw;
+}
+.global .alpadgewidht h2{
+    color: #83888F;
+font-family: Fraunces ;
+font-size: 24px;
+font-weight: 900;
+line-height: 32px; /* 133.333% */
+}
+.global .alpadgewidht .container{
+    display: flex;
+    width: 110%;
+}
+.global .alpadgewidht .box{
+    margin-top: 4vw;
+    width: calc(100%/3);
+    display: flex;
+    flex-direction: column;
+}
+.global .alpadgewidht .box:nth-child(2){
+  width: calc(110%/4);
+}
+.global .alpadgewidht .box img{
+    width: 40.842px;
+    height: 49.072px;
+    flex-shrink: 0;
+}
+.global .alpadgewidht .box strong{
+    color: var(--col2);
+font-family: Fraunces;
+font-size: 32px;
+font-style: normal;
+font-weight: 900;
+line-height: 36px; /* 112.5% */
+}
+.global .alpadgewidht .box  ul{
+    margin-top: 1.5vw;
+    display: flex;
+    flex-direction: column;
+    gap: .3vw;
+}
+.global .alpadgewidht .box  ul li a{
+    color: var(--col2);
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+/* global section ended */
+/* footer section started */
+footer{
+    width: 90%;
+    margin: 0 5%;
+    display: flex;
+    justify-content: center;
+  }
+  footer .alpadgewidht{
+    margin-top: 15vw;
+    margin-bottom: 10vw;
+    width: 1290px;
+    height: 8vw;
+    background: #2C343E;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  footer .alpadgewidht img{
+  width: 100%;
+  }
+  footer .alpadgewidht  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    margin-left: 5vw;
+    margin-right: 20vw;
+  }
+  footer .alpadgewidht ul a {
+    color: #83888F;
+    font-family: Barlow;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px; /* 125% */
+    letter-spacing: 0.923px;
+    text-transform: uppercase;
+  }
+  footer .alpadgewidht  ul li:hover a {
+    color: var(--col3);
+  } 
+  footer .alpadgewidht .social_media{
+    display: flex;
+    gap: 1vw;
+  }
+  footer .alpadgewidht .social_media i{
+    font-size: 2vw;
+    color: var(--col3);
+  }
+  footer .alpadgewidht .social_media i:hover{
+    color: var(--hover2);
+  }
+  @media screen and (max-width: 1200px){
+      
+      .about .alpadgewidht h1{
+        font-size: 36px;
+      }
+      .about .alpadgewidht p{
+        font-size: 15px;
+      }
+      .about .alpadgewidht .meaning{
+        width: 400px; 
+    }
+    .commit .alpadgewidht .container_right{
+        width: 490px;
+    }
+    .commit .alpadgewidht .container_right h2{
+    font-size: 36px;
+    } 
+    .commit .alpadgewidht .container_right p{
+    font-size: 15px;
+    line-height: 24px; /* 162.5% */
+    }
+    .quality .alpadgewidht .word{
+        width: 450px;
+        margin-top: 7vw;
+        margin-left: 5vw;
+    }
+    .quality .alpadgewidht .word h2{
+    font-size: 36px;
+    } 
+    .quality .alpadgewidht .word p{
+        font-size: 15px;
+        line-height: 23px; /* 162.5% */
+
+    }
+  }
+  @media screen and (max-width: 900px){
+      
+    .about .alpadgewidht h1{
+      font-size: 33px;
+    }
+    .about .alpadgewidht p{
+      font-size: 13px;
+    }
+    .about .alpadgewidht .meaning{
+      width: 350px; 
+  }
+  .commit .alpadgewidht .container_right{
+      width: 380px;
+  }
+  .commit .alpadgewidht .container_right h2{
+  font-size: 32px;
+  } 
+  .commit .alpadgewidht .container_right p{
+  font-size: 13px;
+  line-height: 18px; /* 162.5% */
+  }
+  .quality .alpadgewidht .word{
+      width: 350px;
+      margin-top: 7vw;
+      margin-left: 5vw;
+  }
+  .quality .alpadgewidht .word h2{
+  font-size: 32px;
+  } 
+  .quality .alpadgewidht .word p{
+      font-size: 12px;
+      line-height: 18px; /* 162.5% */
+  }
+}
+@media screen and (max-width: 768px){
+  .about .alpadgewidht{
+    height: 50vw;
+    background-position: 20% 50%;
+  }
+  .about .alpadgewidht .container{
+    height: 50vw;
+  }
+  .about .alpadgewidht .container h2{
+    font-size: 32px;
+  }
+  .about .alpadgewidht .container p{
+    font-size: 15px;
+    line-height: 25px;
+    opacity: 0.6;
+  }
+  .about .alpadgewidht .meaning{
+    width: 400px; 
+}
+.commit .alpadgewidht .container_left{
+  width: 40.8vw;
+  height: 61vw;
+  background-position: 40% 0%;
+}
+.commit .alpadgewidht .container_right{
+  width: 390px;
+}
+.commit .alpadgewidht .container_right h2{
+font-size: 32px;
+line-height: 48px;
+} 
+.commit .alpadgewidht .container_right p{
+font-size: 15px;
+line-height: 25px /* 162.5% */
+}
+.quality .alpadgewidht {
+  height: 60vw;
+  margin-top: 15vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.quality .alpadgewidht .cap{
+  width: 75vw;
+  height: 42vw;
+ top: -20vw;
+ left: 7vw;
+ border-radius: 1vw;
+ background-position: bottom;
+}
+.quality .alpadgewidht .word{
+  width: 540px;
+  margin-top: 27vw;
+  margin-left: 0vw;
+}
+.quality .alpadgewidht .word h2{
+text-align: center;
+} 
+.quality .alpadgewidht .word p{
+  text-align: center;
+  font-size: 15px;
+  line-height: 25px
+}
+.global .alpadgewidht .box strong{
+  font-size: 22px;
+  line-height: 36px;
+}
+footer .alpadgewidht{
+  gap: 5vw;
+        height: 30vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+      }
+      footer .alpadgewidht ul{
+        margin: 0;
+      }
+    
+    footer .alpadgewidht .social_media i{
+      font-size: 4vw;
+    }
+}
+@media screen and (max-width: 375px){
+  header nav{
+    display: none;}
+    header .alpadgewidht .more{
+      display: block;
+    }
+    .about .alpadgewidht{
+      height: 105vw;
+      background-position: center;
+      border-radius: 1vw;
+    }
+    .about .alpadgewidht .container{
+      height: 105vw;
+      border-radius: 1vw;
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      align-items: center;
+    }
+    .about .alpadgewidht .container h2{
+      font-size: 28px;
+      line-height: 28px;
+      text-align: center;
+    }
+    .about .alpadgewidht .container p{
+      text-align: center;
+    }
+    .about .alpadgewidht .meaning{
+      width: 279px;
+  }
+  .commit .alpadgewidht {
+    flex-direction: column;
+    margin-top: 25vw;
+  }
+  .commit .alpadgewidht .container_left{
+    width: 88vw;
+    height: 105vw;
+    background-position: 40% 0%;
+    border-radius: 1vw;
+  }
+  .commit .alpadgewidht .container_right{
+    width: 327px;
+  }
+  .commit .alpadgewidht .container_right h2{
+  text-align: center;
+  } 
+  .commit .alpadgewidht .container_right p{
+  text-align: center;
+  }
+  .quality .alpadgewidht {
+    height: 135vw;
+    margin-top: 15vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .quality .alpadgewidht .cap{
+    width: 75vw;
+    height: 42vw;
+   top: -20vw;
+   left: 7vw;
+   border-radius: 1vw;
+   background-position: bottom;
+  }
+  .quality .alpadgewidht .word{
+    width: 279px;
+    margin-top: 37vw;
+    margin-left: 0vw;
+  }
+  .quality .alpadgewidht .word h2{
+  text-align: center;
+  font-size: 28px;
+line-height: 28px
+  } 
+  .quality .alpadgewidht .word p{
+    text-align: center;
+    margin-top: 8vw;
+  }
+  .global .alpadgewidht h2{
+    text-align: center;
+  }
+  .global .alpadgewidht .container{
+    flex-direction: column;
+    align-items: center;
+  }
+  .global .alpadgewidht .container .box{
+    width: 100%;
+    align-items: center;
+    gap: 2vw;
+  }
+  .global .alpadgewidht .container .box img{
+    margin-bottom: 3vw;
+  }
+  .global .alpadgewidht .container .box ul{
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .alpadgewidht{
+    height: 95vw;
+    gap: 15vw;
+  }
+  footer .alpadgewidht ul{
+    margin: 0;
+    flex-direction: column;
+    gap: 6vw;
+  }
+  footer .alpadgewidht .social_media {
+    gap: 5vw;
+  }
+footer .alpadgewidht .social_media i{
+  font-size: 7vw;
+}
+}
+
+    
+  
