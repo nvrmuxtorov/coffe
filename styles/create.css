@@ -653,13 +653,13 @@ footer .alpadgewidht{
     footer .alpadgewidht .social_media i{
       font-size: 4vw;
     }
-  }
+  
   .preparation .alpadgewidht .container-right button{
     width: 30vw;
     height: 8vw;
   margin-top: 3vw;
   margin-left: 55.5%;
-  }
+  }}
   @media screen and (max-width: 375px){
     ::selection{
       width: 88%;
